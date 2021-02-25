@@ -1,0 +1,42 @@
+* {
+  font-family: jost, "sans-serif";
+  /* font-size: 62.5%; */
+}
+
+.box {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  height: 70vh;
+  width: 70vh;
+  font-size: 2rem;
+}
+
+input {
+  max-width: 250px;
+  width: 100%;
+  text-transform: capitalize;
+}
+.info {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+i.fas.fa-street-view::before {
+  margin-right: 10px;
+}
+
+.tempmin_max {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+/* .info i {
+  text-align: center;
+} */
