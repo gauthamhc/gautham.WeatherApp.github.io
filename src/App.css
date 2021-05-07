@@ -40,3 +40,20 @@ i.fas.fa-street-view::before {
 /* .info i {
   text-align: center;
 } */
+
+@media screen and (max-width: 600px) {
+  .box {
+    max-width: 320px;
+    font-size: 1rem;
+  }
+  /* .inputField .info {
+    font-size: 0.5rem;
+  } */
+  .errorMsg {
+    font-size: 0.5rem;
+  }
+  .tempmin_max {
+    padding: 0 1rem;
+    text-align: center;
+  }
+}
